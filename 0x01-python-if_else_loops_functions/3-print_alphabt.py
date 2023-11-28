@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for m in range(97, 123):
-    if (m != 101 and m != 113):
-        print("{}".format(chr(m)), end='')
+for alphabet in range(26):
+    if alphabet != 4 and alphabet != 16:
+        print("{:s}".format(chr(alphabet + ord("a"))), end="")
